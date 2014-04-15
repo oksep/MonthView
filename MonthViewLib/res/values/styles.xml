@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light"></style>
+
+    <style name="CalendarTheme" parent="AppTheme">
+        <item name="CalendarStyle">@style/CalendarMonthStyle</item>
+    </style>
+
+    <style name="CalendarMonthStyle" parent="AppTheme">
+        <item name="weekLabelBg">#FF2C5C76</item>
+        <item name="weekLabelHeight">45dip</item>
+        <item name="weekLabelTxtColor">#FFF2F3F4</item>
+        <item name="weekLabelTxtSize">16sp</item>
+        <item name="lineWidth">1dip</item>
+        <item name="lineColor">#FFDEDEDE</item>
+        <item name="datTxtColor_Normal">#FF494949</item>
+        <item name="dayTxtSize_Normal">17sp</item>
+        <item name="outMonthColor">#FFE2E3E4</item>
+        <item name="selectedColor">#FF1A992C</item>
+    </style>
+
+</resources>
